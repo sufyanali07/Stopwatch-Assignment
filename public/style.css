@@ -1,0 +1,43 @@
+.min {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+}
+
+.sec{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(9, 151, 4);
+}
+
+
+.mls{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.main{
+   justify-content:center ;
+   align-items: center;
+   display: flex;
+ flex-direction: column;
+ transform: translate(-50%,-50%);
+ position: absolute;
+ left: 50%;
+ top: 50%;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
